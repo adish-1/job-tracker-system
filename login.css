@@ -1,0 +1,119 @@
+body 
+{
+    display: flex;
+    justify-content: center;
+    background:linear-gradient(135deg,#005591,#0096ff);
+    align-items:center;
+    height: 100vh;
+    margin: 0;
+    background-repeat: no-repeat;
+}
+ h1
+ {
+     font-family: 'Montserrat',sans-serif;
+ }
+fieldset
+{
+    display: flex;
+    flex-direction: column;
+    width:90%;
+    background: whitesmoke;
+    border: none;
+    border-radius: 1px 20px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 30px #fff12b;
+}
+.input
+{
+  display: flex;
+  justify-content:center;
+  padding-top: 20px;
+  column-gap: 20px;
+  width: 90%;
+  max-width: 500px;
+  }
+  form
+  {
+      width: 90%;
+      max-width: 700px;
+  }
+  input[type="text"],input[type="password"]
+  {
+      border: none;
+      background: none;
+      border-bottom: 2px solid #3d5193;
+      width: 90%;
+      max-width: 600px;
+      height:40px;
+      outline: none;
+      font-weight: bold;
+      font-family: 'Montserrat',sans-serif;
+      transition: 0.3s ease all;
+  }
+  #field
+  {
+      display: flex;
+      flex-direction: column;
+      row-gap: 20px;
+      padding-top: 20px;    
+  }
+  input[type="text"]::placeholder
+  {
+      font-weight:bold;
+      font-family: 'Montserrat',sans-serif;
+  }
+  input[type="password"]::placeholder
+  {
+      font-weight:bold;
+      font-family: 'Montserrat',sans-serif;
+  }
+  
+  input[type="submit"],input[type="reset"]
+  {
+   background: #298ff3;
+   width: 90%;
+   max-width: 300px;
+   height: 40px;
+   border: none;
+   color: white;
+   border-radius: 30px;
+   transition: 0.4s all ease;
+   font-weight: bold;
+  }
+   
+   input[type="button"]
+   {
+       width: 20%;
+       max-width: 50px;
+       margin-left: auto;
+       margin-right: auto;
+       border: none;
+       background: #40b6ff;
+       border-radius: 50px;
+       height:30px; 
+       transition: 0.3s all ease;
+   }
+   input[type="button"]:focus
+   {
+    transform: scale(1.2);
+    background: black;       
+   }
+   input[type="submit"]:hover
+   {
+      transform: scale(1.1);
+      background: #ff4900;
+   }
+   input[type="reset"]:hover
+   {
+      transform: scale(1.1);
+      background: #ff4900;
+   }
+   input[type="text"]:focus
+    {
+       transform: scale(1.1);
+    }
+    input[type="password"]:focus
+    {
+       transform: scale(1.1);
+    }

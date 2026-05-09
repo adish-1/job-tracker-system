@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page title</title>
+    <link rel="stylesheet" href="dash.css">
+          <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">  
+          <script src="dash.js"></script>
+</head>
+<body>
+    <h1>Welcome Startups</h1>
+    <h3>Find your employees</h3>
+    <fieldset>
+        <div class="main"> 
+      <form name="form" method="POST" action="dash.php">
+                  
+          <input type="text" name="skill" placeholder="skills you need" required><input type="submit" value="search">
+            </form>
+           <form name="form2" method="POST" action="dash.php">
+        <input type="text" name="age" placeholder="Age you prefer" required>
+        <input type="submit" value="search">
+           </form>
+        <form name="form3" method="POST" action="dash.php">        
+     <input type="text" name="education" placeholder="required education" required>
+     <input type="submit" value="search">     
+         </form>
+         
+         <form name="form4" method="POST" action="dash.php">
+         <input type="button" value="dynamic search" onclick="dynamicEntry()">
+         <input type="hidden" name="skills">
+         <input type="hidden" name="edu">
+     </form>
+     
+     </div>         
+     
+    </fieldset>
+    <a href="../loginpage/login.html">LOG OUT</a>    
+</body>
+</html>

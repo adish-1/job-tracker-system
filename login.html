@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ADMIN PAGE</title>
+   <link rel="stylesheet" href="login.css">
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+   <script>
+       function toogle()
+       {
+       var x=document.form1.password;
+       if(x.type==="password")
+       { 
+       x.type="text";
+         }
+         else
+         {
+          x.type="password";
+         }
+     }
+   </script>
+</head>
+<body>
+    <form name="form1" method="POST" action="../Authentication/auth.php">
+        <fieldset>
+            <h1>ADMIN LOGIN</h1>
+            <div id="field">
+                <input type="text" name="username" required placeholder="username"><br>
+         <input type="password" name="password" required placeholder="Demo Code">
+         <input type="button" value="🕶️" name="btn" onclick="toogle()">
+         <br>
+            </div>
+         
+         <div class="input">
+         <input type="submit" value="Submit">
+         <input type="reset" value="clear">
+        </div>
+        </fieldset>
+        <p style="color:red; font-size:12px;">
+Demo login for admin use only. Do not use real passwords.
+</p>
+        <p style="color:gray; font-size:12px;">
+This is a student project. No real user authentication or data collection is performed.
+</p>
+    </form>
+
+
+
+</body>
+</html>

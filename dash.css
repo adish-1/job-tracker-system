@@ -1,0 +1,119 @@
+body
+{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    background: linear-gradient(135deg,#786598,#caaaff);
+    background-repeat: no-repeat;
+    position: relative;
+    min-height: 100vh;    
+    row-gap:20px;
+}
+ fieldset 
+ {
+     display: flex;     
+     width: 90%;
+     max-width: 700px;
+     justify-content: center;
+     border: none;
+     background: white;
+     border-radius: 10px;     
+     box-shadow: 0 0 10px #ff3400;
+ }
+ h1
+ {
+     font-family: 'Poppins',sans-serif;
+     color:white;
+ }
+ h3
+ {
+     color: white;
+     font-size: 25px;
+ }
+.main
+ {
+    display: flex;
+    flex-direction: column;
+    width:95%;
+    gap:40px;
+   
+  } 
+
+ input[type="text"]
+ {
+      padding:20px;
+      width: 80%;
+      margin-top: 20px;
+      margin-right: 10px;
+      margin-left: 10px;
+      border: 2px solid #62625a;
+      outline: none;
+      background: transparent;
+      font-weight: bold;
+      transition: 0.3s ease all;
+ }
+ input[type="submit"]
+ {
+     width: 88%;
+     margin-top: 15px;
+     font-weight: bold;
+     margin-left: 10px;
+     color: white;
+     border: 2px solid #1577ff;
+     background: #2571df;
+     height: 40px;
+     border-radius: 10px;
+     transition: 0.3s ease all;
+ }
+  input[type="submit"]:hover
+  {
+      transform: scale(1.1);
+      background: #ff1f00;
+  }
+ input[type="text"]:focus
+ {
+     transform: scale(1.1);
+     
+ }
+ a
+ {
+     background: #2b82ff;
+     color: white;
+     width: 70%;
+     margin-top: 50px;
+     margin-bottom: 20px;
+     padding-top: 20px;
+     height: 40px;
+     text-align: center;
+     border-radius: 10px;
+     text-decoration: none;
+     font-weight: bold;
+     box-shadow: 0 0 5px #50ff00;
+     font-size: 20px;
+     transition: 0.3s ease all;
+ }
+  input[type="button"]
+  { 
+    margin-left: 10px;
+      margin-top: 30px;
+      border: none;
+      margin-bottom:30px;
+      width:90%;
+      height: 40px;
+      background: linear-gradient(135deg,#9c2d00,#ff000a);
+      color: white;
+      font-weight: bold;
+      font-family: 'Poppins',sans-serif;
+      border-radius: 10px;
+      box-shadow:0 0 10px #bce900;
+      transition: 0.3s ease all;
+  }
+  input[type="button"]:focus
+  {
+      transform: scale(1.1);
+  }
+ a:hover
+ {
+    transform: scale(1.1);
+ }
+ 
