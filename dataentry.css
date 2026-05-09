@@ -1,0 +1,166 @@
+body 
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 4%;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    position: relative;
+    background: linear-gradient(130deg,#51567a,#aab5ff);
+}
+h2
+{
+    font-size:40px;
+    color: #bfeaff;
+    letter-spacing:6px;
+    font-family: 'Oswald', sans-serif;
+}
+ hr
+ {
+    width:100%;
+ }
+ p
+ {
+     color:greenyellow;
+     font-weight: bold;
+     letter-spacing:3px;
+     font-size: 20px;
+     font-family: 'Montserrat',sans-serif;
+ }
+ h3
+ {
+   color: #2e2e32;
+   font-size: 30px;
+   font-family: 'Poppins',sans-serif;
+   letter-spacing: 2px;
+ }
+ h4
+ {
+     font-size: 20px;
+     font-family:'Montserrat',sans-serif;
+     color: whitesmoke;
+ }
+ h5
+ {
+     font-size: 20px;
+     font-family:'Montserrat',sans-serif; ;
+ }
+ fieldset
+ {
+    width: 90%;
+    display:flex;
+    flex-direction: column;
+    max-width: 700px;
+    justify-content: center;     
+    grid-gap: 10px;
+    background: whitesmoke;
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 25px #eaeaff;
+ }
+ form 
+ {
+     width:90%;
+     max-width: 600px;     
+ }
+ .container,.educations
+ {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     column-gap: 20px;
+ }
+  label
+  {
+    font-weight: bold;
+    font-family:'Poppins',sans-serif;
+    color: #236cd4;
+  }
+  input[type="text"],input[type="tel"],input[type="number"],input[type="email"]
+  { 
+      color: black;
+      height: 40px;
+      outline: none;
+      font-weight: bold;
+      border: none;
+      background: transparent;
+      border-bottom: 2px solid #007cf5;
+      transition: 0.4s ease all;
+  }
+  #inputfields
+  {
+      margin-top: 30px;
+  }
+  input[type="text"]:focus
+  {
+   transform: translateY(-10px) scaleX(1.01);
+  }
+  input[type="tel"]:focus
+  {
+   transform: translateY(-10px) scaleX(1.01);
+  }
+  input[type="number"]:focus
+  {
+   transform: translateY(-10px) scaleX(1.01);
+  }
+  input[type="email"]:focus
+  {
+   transform: translateY(-10px) scaleX(1.01);
+  }
+  input[type="radio"]
+  {
+  width:30px;
+  height: 30px;
+  appearance:none;
+  transition: 0.3s all ease;
+  background: linear-gradient(to right,blue 50%,white 50%);
+  border-radius: 50%;
+  border: 3px solid black;
+  }
+  input[type="radio"]:checked
+   {
+    transform: scale(1.5) rotate(180deg);
+    background: linear-gradient(to right,green 50%,white 50%);
+   }
+   textarea
+   {
+       border: none;
+       height: 100px;
+       width: 80%;
+       margin: auto;
+       background:linear-gradient(135deg,#7b7667,#ddd4b8);
+       outline: none;
+       transition: 0.3s all ease;
+       border-radius: 10px;
+       font-weight: bold;
+       font-family:'Montserrat',sans-serif;
+   }
+   textarea:focus
+   {
+       transform: scale(1.2);
+       border: 2px solid black;
+   }
+    input[type="submit"],input[type="reset"]
+    {
+       width: 50%;
+       height: 40px;
+       border: none;
+       background:#0096ff;
+       color: white;
+       font-weight: bold;
+       border-radius: 20px;
+       box-shadow: 0 0 10px #50ff00;
+       transition: 0.3s all ease;
+    }
+    input[type="submit"]:hover
+    {
+     transform: scale(1.1);
+     background: #ff3400;
+     }
+     input[type="reset"]:hover
+    {
+     transform: scale(1.1);
+     background: #ff3400;
+     }

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JOB TRACKER FOR KERALA GRADUATES</title>
+    <link rel="stylesheet" href="dataentry.css">
+    <script src="dataentry.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <form method="POST" action="dataentry.php"  name="form1" onsubmit="return handleSubmit()">
+    <h2>Fill your Details</h2>
+    
+    <hr>
+    
+    <p>Welcome to Job-Traker<br>Many startup's are lack of employees<br>here we connect fresher's with startup's</p>
+    
+        <hr>
+        
+        <h2>Fill the Form</h2>
+        <fieldset>
+            <div id="inputfields"></div>
+        <input type="text"name="name" maxlength="20" required placeholder="Your Name"><br>
+        <input type="number" name="age" required placeholder="Your Age"><br>
+        <input type="email" name="mail" required placeholder="Your Mail"><br>
+        <input type="tel" name="Phno" required placeholder="Phone Number" maxlength="10"><br>
+        
+        <h3>Education </h3>
+        <div class="educations">
+            <label>BCA</label>
+        <input type="radio" name="education" value="BCA" required>
+        <label>B.Tech</label>
+        <input type="radio" name="education" value="B.Tech" required>
+        </div>
+        
+        <h3>Enter your skills</h3>    
+        <textarea name="skills" maxlength="151" required></textarea><br>
+       <h5>Eg: Linux,Ai,etcc...</h5>
+        
+        <div class="container">
+        <input type="submit" value="Submit">
+        <input type="reset" value="clear">
+        </div>
+     </fieldset>
+     <h4>THANK YOU FOR VISITING OUR PAGE<br>
+      GET YOUR JOB SOON</h4>
+    </form>
+</body>
+</html>
