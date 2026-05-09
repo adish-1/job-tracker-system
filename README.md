@@ -48,7 +48,7 @@ https://adish.wuaze.com/Backend/loginpage/login.html
 - HTML
 - CSS
 - JavaScript
-- XAMPP (Local Development Environment)
+
 
 ---
 
